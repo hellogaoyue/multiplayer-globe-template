@@ -93,7 +93,7 @@ function App() {
 			<h1>大家都在哪里？</h1>
 			{counter !== 0 ? (
 				<p>
-					<b>{counter}</b> {counter === 1 ? "person" : "人"} 已连接.
+					<b>{counter}</b> {counter === 1 ? "人" : "人"} 已连接.
 				</p>
 			) : (
 				<p>&nbsp;</p>
